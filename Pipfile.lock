@@ -1,0 +1,50 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "248fd272028f5219552fcfea99c64ddb8b520fb2ad6e4c509ad03c8573840fb5"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.12"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "hexdump": {
+            "hashes": [
+                "sha256:d781a43b0c16ace3f9366aade73e8ad3a7bd5137d58f0b45ab2d3f54876f20db"
+            ],
+            "index": "pypi",
+            "version": "==3.3"
+        },
+        "libusb1": {
+            "hashes": [
+                "sha256:4ee9b0a55f8bd0b3ea7017ae919a6c1f439af742c4a4b04543c5fd7af89b828c",
+                "sha256:77a06ecfb3d002d7c2ce369e28d0138b292fe8db8a3d102b73fda231a716dd35",
+                "sha256:9d9f16e2c199cab91f48ead585d3f5ec7e8e4be428a25ddfed22abf786fa9b3a",
+                "sha256:bc7874302565721f443a27d8182fcc7152e5b560523f12f1377b130f473e4a0c"
+            ],
+            "version": "==3.1.0"
+        },
+        "pandacan": {
+            "editable": true,
+            "file": "."
+        },
+        "tqdm": {
+            "hashes": [
+                "sha256:90279a3770753eafc9194a0364852159802111925aa30eb3f9d85b0e805ac7cd",
+                "sha256:e1020aef2e5096702d8a025ac7d16b1577279c9d63f8375b63083e9a5f0fcbad"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==4.66.5"
+        }
+    },
+    "develop": {}
+}
